@@ -7,3 +7,5 @@ services:
     envVars:
       - key: BOT_TOKEN
         sync: false
+    build:
+      pythonVersion: "3.11"
